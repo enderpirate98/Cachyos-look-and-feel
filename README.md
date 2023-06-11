@@ -26,4 +26,11 @@ mkdir -p "${pkgdir}/usr/share/plasma/look-and-feel"
 ```
 Move the files we got from earlier to the necessary directories
 
-(Work in progress please wait for more)
+```
+sudo mv CachyOS-Nord-KDE/color-schemes/CachyOSNord.colors /usr/share/color-schemes
+sudo mv CachyOS-Nord-KDE/color-schemes/CachyOSNordLightly.colors /usr/share/color-schemes
+cd plasma/
+sudo mv desktoptheme/CachyOS-Nord-round/ /usr/share/plasma/desktoptheme
+sudo mv look-and-feel/com.cachyos.ddh4r4m.nord /usr/share/plasma/look-and-feel
+```
+More to come
