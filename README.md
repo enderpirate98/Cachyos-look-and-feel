@@ -1,6 +1,6 @@
 # Introduction
 
-Ever wanted to have the aesthetic look and feel of CachyOS but can switch distros? In this guide we will teach you on how to make your Kde Plasma desktop envrionment look and feel like it does on CachyOS itself!
+Ever wanted to have the aesthetic look and feel of CachyOS but can't switch distros? In this guide we will teach you on how to make your Kde Plasma desktop envrionment look and feel like it does on CachyOS itself!
 
 ## Prerequisites
 
