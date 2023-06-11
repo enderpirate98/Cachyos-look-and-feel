@@ -1,2 +1,13 @@
-# Cachyos-look-and-feel
-A guide on how to bring the look and feel from CachyOS to any Linux distro!
+# Introduction
+
+Ever wanted to have the aesthetic look and feel of CachyOS but can switch distros? In this guide we will teach you on how to make your Kde Plasma desktop envrionment look and feel like it does on CachyOS itself!
+
+# Prerequisites
+
+You will need the latest version of Kde Plasma for this to work (As of writing it is 5.27.5)
+
+And you will optionaly need the Fish shell installed if you also want that wonderful configuration.
+
+# How do I install everything?
+
+I will work on this bit later since it is a work in progress atm but there will be something here soon!
