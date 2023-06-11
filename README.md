@@ -2,13 +2,13 @@
 
 Ever wanted to have the aesthetic look and feel of CachyOS but can switch distros? In this guide we will teach you on how to make your Kde Plasma desktop envrionment look and feel like it does on CachyOS itself!
 
-# Prerequisites
+## Prerequisites
 
 - You will need the latest version of Kde Plasma for this to work (As of writing it is 5.27.5)
 
 - And you will optionaly need the Fish shell installed if you also want that wonderful configuration.
 
-# How do I install everything?
+## How do I install everything?
 
 First of all download the files needed
 
@@ -33,4 +33,9 @@ cd plasma/
 sudo mv desktoptheme/CachyOS-Nord-round/ /usr/share/plasma/desktoptheme
 sudo mv look-and-feel/com.cachyos.ddh4r4m.nord /usr/share/plasma/look-and-feel
 ```
+
+Reboot your device and go into your system settings and the global theme should appear in Appearance>Global Theme
+
+### My system looks better but where are my glorious icons?
+
 More to come
