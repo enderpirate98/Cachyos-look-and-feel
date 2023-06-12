@@ -6,8 +6,6 @@ Ever wanted to have the aesthetic look and feel of CachyOS but can't switch dist
 
 - You will need the latest version of Kde Plasma for this to work (As of writing it is 5.27.5)
 
-- And you will optionaly need the Fish shell installed if you also want that wonderful configuration.
-
 ## How do I install everything?
 
 First of all download the files needed
@@ -38,4 +36,16 @@ Reboot your device and go into your system settings and the global theme should 
 
 ### My system looks better but where are my glorious icons?
 
-More to come
+Time for the icons!
+
+```
+cd Downloads/
+cd char-white/
+sudo mv char-white/usr/share/icons/char-white usr/share/icons/char-white
+```
+
+With that installed your system should now look like CachyOS but we all know somthing is missing...
+
+## Fish shell configuration!
+
+I don't know anything about copying the Fish Shell configuration for now :(
