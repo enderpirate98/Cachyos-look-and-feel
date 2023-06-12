@@ -44,6 +44,8 @@ cd char-white/
 sudo mv char-white/usr/share/icons/char-white usr/share/icons/char-white
 ```
 
+Reboot and select the theme in Appearance>Icons
+
 With that installed your system should now look like CachyOS but we all know somthing is missing...
 
 ## Fish shell configuration!
