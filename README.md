@@ -46,7 +46,15 @@ sudo mv char-white/usr/share/icons/char-white usr/share/icons/char-white
 
 Reboot and select the theme in Appearance>Icons
 
-With that installed your system should now look like CachyOS but we all know somthing is missing...
+## Don't forget the Sddm theme!
+
+Go to Workspace>Startup and Shutdown>Login Screen and hit `Get New SDDM Themes...` 
+
+A theme store should pop up and just search ``` Dexy-Color-SDDM ``` click install on the one made by L4K1
+
+And switch to it!
+
+With all that installed your system should now look like CachyOS but we all know somthing is missing...
 
 ## Fish shell configuration!
 
