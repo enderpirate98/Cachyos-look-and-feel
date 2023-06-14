@@ -58,4 +58,12 @@ With all that installed your system should now look like CachyOS but we all know
 
 ## Fish shell configuration!
 
-I don't know anything about copying the Fish Shell configuration for now :(
+Install the Fish shell using the instructions at the bottem of the page for your distro here: https://fishshell.com
+
+After doing all that go ahead and download the CachyOS fish config
+```
+cd Downloads/
+git clone https://github.com/CachyOS/cachyos-fish-config
+```
+
+I still don't know what I'm doing here so wait until I figure this out.
