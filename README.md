@@ -5,7 +5,7 @@ Ever wanted to have the aesthetic look and feel of CachyOS but can't switch dist
 ## Prerequisites
 
 - You will need the latest version of Kde Plasma for this to work (As of writing it is 5.27.5)
-- And fastfetch installed if you want the fish configuration
+- And fastfetch and exa installed if you want the fish configuration
 ## How do I install everything?
 
 First of all download the files needed
@@ -73,6 +73,7 @@ sudo mkdir /usr/share/cachyos-fish-config/
 cd cachyos-fish-config/
 sudo mv conf.d/done.fish ~/.config/fish/conf.d
 sudo mv cachyos-config.fish /usr/share/cachyos-fish-config/
-sudo mv config.fish .config/fish/
+sudo mv config.fish ~/.config/fish/
 ```
+
 Reboot and see what has changed!
