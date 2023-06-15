@@ -5,7 +5,7 @@ Ever wanted to have the aesthetic look and feel of CachyOS but can't switch dist
 ## Prerequisites
 
 - You will need the latest version of Kde Plasma for this to work (As of writing it is 5.27.5)
-- And fastfetch and exa installed if you want the fish configuration
+- And fastfetch, exa and exa-fish-completion installed if you want the fish configuration
 ## How do I install everything?
 
 First of all download the files needed
