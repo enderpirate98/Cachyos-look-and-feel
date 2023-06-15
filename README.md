@@ -71,7 +71,7 @@ Switch to root user and navigate to normal user home directory
 ```
 mkdir /usr/share/cachyos-fish-config/conf.d
 cd cachyos-fish-config/
-mv conf.d/done.fish ~/.config/fish/conf.d/
+mv conf.d/done.fish /usr/share/cachyos-fish-config/conf.d
 mv cachyos-config.fish /usr/share/cachyos-fish-config/
 mv config.fish ~/.config/fish/
 ```
