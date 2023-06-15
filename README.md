@@ -66,7 +66,7 @@ cd Downloads/
 git clone https://github.com/CachyOS/cachyos-fish-config
 ```
 
-Switch to root user and vavigate to normal user home directory
+Switch to root user and navigate to normal user home directory
 
 ```
 mkdir /usr/share/cachyos-fish-config/conf.d
