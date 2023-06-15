@@ -66,14 +66,14 @@ cd Downloads/
 git clone https://github.com/CachyOS/cachyos-fish-config
 ```
 
-And now we move!
+Switch to root user and vavigate to normal user home directory
 
 ```
-sudo mkdir /usr/share/cachyos-fish-config/
+mkdir /usr/share/cachyos-fish-config/conf.d
 cd cachyos-fish-config/
-sudo mv conf.d/done.fish ~/.config/fish/conf.d/
-sudo mv cachyos-config.fish /usr/share/cachyos-fish-config/
-sudo mv config.fish ~/.config/fish/
+mv conf.d/done.fish ~/.config/fish/conf.d/
+mv cachyos-config.fish /usr/share/cachyos-fish-config/
+mv config.fish ~/.config/fish/
 ```
 
 Reboot and see what has changed!
