@@ -69,11 +69,15 @@ git clone https://github.com/CachyOS/cachyos-fish-config
 And now we move!
 
 ```
-sudo mkdir /usr/share/cachyos-fish-config/
+sudo mkdir /usr/share/cachyos-fish-config/conf.d/
 cd cachyos-fish-config/
 sudo mv conf.d/done.fish ~/.config/fish/conf.d
 sudo mv cachyos-config.fish /usr/share/cachyos-fish-config/
-sudo mv config.fish ~/.config/fish/
+sudo mv config.fish ~/.config/fish/conf.d/
 ```
 
 Reboot and see what has changed!
+
+If you have any issues report them to the CachyOS develupment team.
+
+This guide was made by me and you can modify it, just mention enderpirate98 as the origional author. The actual files mentioned in these instructions were not made by me, they were made by the wonderful creators of the CachyOS Linux Distribution and special thanks to the team for giving me the breadcrumbs that I needed to figure out how to write this guide on installing these wonderful cusimizations!
