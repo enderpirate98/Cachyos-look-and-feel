@@ -69,7 +69,7 @@ git clone https://github.com/CachyOS/cachyos-fish-config
 And now we move!
 
 ```
-mkdir /usr/share/cachyos-fish-config/
+sudo mkdir /usr/share/cachyos-fish-config/
 cd cachyos-fish-config/
 sudo mv conf.d/done.fish ~/.config/fish/conf.d
 sudo mv cachyos-config.fish /usr/share/cachyos-fish-config/
