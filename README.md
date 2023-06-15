@@ -70,7 +70,7 @@ And now we move!
 
 ```
 cd cachyos-fish-config/
-sudo mv conf.d/done.fish .config/fish/conf.d
+sudo mv conf.d/done.fish ~/.config/fish/conf.d
 sudo mv cachyos-config.fish /usr/share/cachyos-fish-config/
 sudo mv config.fish .config/fish/
 ```
