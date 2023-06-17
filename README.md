@@ -67,7 +67,7 @@ cd Downloads/
 git clone https://github.com/CachyOS/cachyos-fish-config
 ```
 
-Moving time!
+Moving time! (Due to permission issues I can't seem to figure this one out sorry :( but if someone can point me into the right direction I would be thankful!)
 
 ```
 sudo su
