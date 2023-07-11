@@ -67,16 +67,13 @@ cd Downloads/
 git clone https://github.com/CachyOS/cachyos-fish-config
 ```
 
-Moving time! (Due to permission issues I can't seem to figure this one out sorry :( but if someone can point me into the right direction I would be thankful!)
+Moving time! (I might have fixed it but I cannot try it out as of writing so don't follow this section yet.)
 
 ```
-sudo su
-mkdir /usr/share/cachyos-fish-config/conf.d
 cd cachyos-fish-config/
-mv conf.d/done.fish /usr/share/cachyos-fish-config/conf.d
-mv cachyos-config.fish /usr/share/cachyos-fish-config/
-mv config.fish ~/.config/fish/
-
+sudo mv config.fish ~/.config/fish/
+cd ~/Downloads
+sudo mv cachyos-fish-config/ /usr/share/
 ```
 
 Reboot and see what has changed!
