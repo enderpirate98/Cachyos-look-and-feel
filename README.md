@@ -43,6 +43,7 @@ Time for the icons!
 cd Downloads/
 cd char-white/
 sudo mv usr/share/icons/char-white /usr/share/icons/char-white
+
 ```
 
 Reboot and select the theme in Appearance>Icons
@@ -59,7 +60,13 @@ With all that installed your system should now look like CachyOS but we all know
 
 ## Fish shell configuration!
 
-Install the Fish shell using the instructions at the bottem of the page for your distro here: https://fishshell.com and also install exa and exa-fish-comepletion
+Install the Fish shell using the instructions at the bottem of the page for your distro here: https://fishshell.com and also install ```exa``` and ```exa-fish-comepletion```
+
+Switching default shell to fish
+```
+ echo /usr/local/bin/fish | sudo tee -a /etc/shells
+ chsh -s /usr/bin/fish
+```
 
 After doing all that go ahead and download the CachyOS fish config
 ```
@@ -67,7 +74,7 @@ cd Downloads/
 git clone https://github.com/CachyOS/cachyos-fish-config
 ```
 
-Moving time! (I might have fixed it but I cannot try it out as of writing so don't follow this section yet.)
+Moving time!
 
 ```
 cd cachyos-fish-config/
@@ -80,4 +87,4 @@ Reboot and see what has changed!
 
 If you have any issues report them to the CachyOS develupment team.
 
-This guide was made by me and you can modify it, just mention enderpirate98 as the origional author. The actual files mentioned in these instructions were not made by me, they were made by the wonderful creators of the CachyOS Linux Distribution and special thanks to the team for giving me the breadcrumbs that I needed to figure out how to write this guide on installing these wonderful cusimizations!
+This guide was made by me and you can modify it, just mention enderpirate98 as the original author. The actual files mentioned in these instructions were not made by me, they were made by the wonderful creators of the CachyOS Linux Distribution and special thanks to the team for giving me the breadcrumbs that I needed to figure out how to write this guide on installing these wonderful customizations!
