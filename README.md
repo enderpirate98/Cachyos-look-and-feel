@@ -53,8 +53,8 @@ Install the Fish shell using the instructions at the bottem of the page for your
 Switching default shell to fish
 ```
 echo /usr/local/bin/fish | sudo tee -a /etc/shells && chsh -s /usr/bin/fish
-
 ```
+Reboot to see Fish!
 
 After doing all that go ahead and download the CachyOS fish config
 ```
@@ -65,11 +65,13 @@ cd Downloads/ && git clone https://github.com/CachyOS/cachyos-fish-config
 Moving time!
 
 ```
-cd cachyos-fish-config/ && sudo mv config.fish ~/.config/fish/ && cd ~/Downloads && sudo mv cachyos-fish-config/ /usr/share/
+cd Downloads/cachyos-fish-config/ && sudo mv config.fish ~/.config/fish/ && cd ~/Downloads && sudo mv cachyos-fish-config/ /usr/share/
 ```
 
-Reboot and see what has changed!
-
+Disable Fish Welcome message
+```
+set fish_greeting
+```
 If you have any issues report them to the CachyOS development team.
 
 This guide was made by me and you can modify it, just mention enderpirate98 as the original author. The actual files mentioned in these instructions were not made by me, they were made by the wonderful creators of the CachyOS Linux Distribution and special thanks to the team for giving me the breadcrumbs that I needed to figure out how to write this guide on installing these wonderful customizations!
