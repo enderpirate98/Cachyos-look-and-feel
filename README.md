@@ -48,7 +48,7 @@ With all that installed your system should now look like CachyOS but we all know
 
 ## Fish shell configuration!
 
-Install the Fish shell using the instructions at the bottem of the page for your distro here: https://fishshell.com and also install ```exa``` and ```exa-fish-comepletion``` as well as ``fastfetch``
+Install the Fish shell using the instructions at the bottem of the page for your distro here: https://fishshell.com and also install ``eza`` and ``fastfetch``
 
 Switching default shell to fish
 ```
