@@ -1,3 +1,5 @@
+# Note: if this year old documentation does not work for you, please follow the more polished instructions [here](https://universal-blue.discourse.group/docs?topic=574) for the Kde themeing
+
 # Introduction
 
 Ever wanted to have the aesthetic look and feel of CachyOS but can't switch distros? In this guide we will teach you on how to make your Kde Plasma desktop envrionment look and feel like it does on CachyOS itself!
@@ -14,7 +16,7 @@ First of all download the files needed
 cd Downloads/ && git clone https://github.com/CachyOS/CachyOS-Nord-KDE && git clone https://github.com/CachyOS/char-white
 ```
 
-Next we will create the directories needed for the theme
+Next we will create the directories needed for the theme ##
 ```
 mkdir -p "${pkgdir}/usr/share/color-schemes" && mkdir -p "${pkgdir}/usr/share/plasma/desktoptheme" && mkdir -p "${pkgdir}/usr/share/plasma/look-and-feel"
 ```
